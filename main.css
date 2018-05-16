@@ -3,6 +3,15 @@ body{
   background-repeat: no-repeat;
   box-sizing: border-box;
 }
+
+.logo{
+  color: white;
+  font-size: 3em;
+  background-color: rgb(41,184,229);
+  text-align: center;
+  width: 80%;
+}
+
 form{
   background-color: white;
   width: 30em;
@@ -21,7 +30,7 @@ textarea{
 .counter{
   display: inline-block;
   width: 15%;
-  
+
 }
 
 button {
