@@ -46,3 +46,15 @@ button {
 .save{
   background-color: rgb(0,121,191) ;
 }
+
+.comment-saver-parent {
+  background-color: silver;
+}
+.red {
+  outline: none;
+  border: 1px solid red;
+}
+
+.gray {
+  border: 1px solid gray;
+}

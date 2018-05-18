@@ -14,15 +14,18 @@
 </header>
 <main>
   <form class="information" action="index.html" method="post">
-    <textarea name="data" rows="10" cols="50" placeholder="escribe tus datos"></textarea>
-    <spam type="button-data" class="cod" name="button">codigo</spam>
+    <textarea id="user-info" name="data" rows="10" cols="50" placeholder="escribe tus datos"></textarea>
+    <button type="submit" class="cod" id="button">Guardar</button>
   </form>
   <form class="coment-list">
     <div class="new-coment">
-      <textarea rows="10" cols="50" placeholder="¿Que estas pensando?..."></textarea>
-      <div class="counter">3333</div>
-      <button value="save" class="save">Tweet</button>
-      <button class="cancel"><i class="fas fa-trash-alt"></i></button>
+      <label>***caracteres restantes***<span></span> </label>
+      <textarea rows="10" cols="50"id="new-comment"  maxlength="140" placeholder="¿Que estas pensando?..."></textarea>
+      <div class="counter"></div>
+      <button  type="submit" value="save" class="save" id="coment-save">Tweet</button>
+      <button type="submit" class="cancel"><i class="fas fa-trash-alt"></i></button>
+      <div class="">
+      </div>
     </div>
   </form>
 </main>
